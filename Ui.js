@@ -1,15 +1,15 @@
-import ImageProfile from "./ImageProfile.js";
+import Gallery from "./Gallery.js";
 
-export default function Ui() {
+function Ui() {
     return React.createElement(
         "div",
         { className: "app" },
         React.createElement(
             "h1",
             null,
-            "Hey World"
+            "My React Gallery"
         ),
-        React.createElement(ImageProfile, null)
+        React.createElement(Gallery, null)
     );
 }
 
@@ -17,3 +17,5 @@ export default function Ui() {
 var rootNode = document.getElementById('rootNode');
 var root = ReactDOM.createRoot(rootNode);
 root.render(React.createElement(Ui, null));
+
+export default Ui;

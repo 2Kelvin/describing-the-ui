@@ -1,10 +1,10 @@
-import ImageProfile from "./ImageProfile.js";
+import Gallery from "./Gallery.js";
 
-export default function Ui() {
+function Ui() {
     return (
         <div className="app">
-            <h1>Hey World</h1>
-            <ImageProfile />
+            <h1>My React Gallery</h1>
+            <Gallery />
         </div>
     );
 }
@@ -13,3 +13,5 @@ export default function Ui() {
 const rootNode = document.getElementById('rootNode');
 const root = ReactDOM.createRoot(rootNode);
 root.render(<Ui />);
+
+export default Ui;
