@@ -2,6 +2,14 @@ body {
     margin: 0;
 }
 
+.app {
+    text-align: center;
+}
+
+.app>h1 {
+    margin-bottom: 2em;
+}
+
 .my_image {
     height: 250px;
     width: 250px;
