@@ -1,5 +1,16 @@
+import ImageProfile from "./ImageProfile.js";
+
 export default function Ui() {
-    return;
+    return React.createElement(
+        "div",
+        { className: "app" },
+        React.createElement(
+            "h1",
+            null,
+            "Hey World"
+        ),
+        React.createElement(ImageProfile, null)
+    );
 }
 
 // react connection
