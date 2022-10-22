@@ -1,7 +1,9 @@
-function ImageProfile() {
+function ImageProfile(_ref) {
+    var _src = _ref._src;
+
     return React.createElement("img", {
-        src: "images/profile.jpg",
-        alt: "user",
+        src: _src,
+        alt: "gallery image",
         className: "my_image"
     });
 }

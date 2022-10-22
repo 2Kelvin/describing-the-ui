@@ -3,7 +3,7 @@ import Gallery from "./Gallery.js";
 function Ui() {
     return (
         <div className="app">
-            <h1>My React Gallery</h1>
+            <h1>React Gallery</h1>
             <Gallery />
         </div>
     );
@@ -33,3 +33,8 @@ export default Ui;
 // *** in default imports you can rename what you're importing however you want
 // use default exports if the file exports only one component
 // use named exports if the file exports multiple components and values
+
+// RULES OF JSX
+    // must return a single element -> to return multiple elements, wrap them up in one parent element e.g. a <div> or a fragment <> if ypu don't want to add an extra HTML element to the page/tree
+    // JSX requires tags to be explicitly closed .eg. <li></li> or <br/>, <img/>
+    // use camelCasing for JSX attributes e.g. className, backgroundColor...

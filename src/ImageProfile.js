@@ -1,8 +1,8 @@
-function ImageProfile() {
+function ImageProfile({ _src }) {
     return (
         <img
-            src="images/profile.jpg"
-            alt="user"
+            src={_src}
+            alt="gallery image"
             className="my_image"
         />
     );
