@@ -1,6 +1,6 @@
 # describing-the-ui
 
-![describe-ui](https://user-images.githubusercontent.com/85868026/197260628-42f90870-4f68-4806-876b-5f7f991cb816.png)
+![gallerV2](https://user-images.githubusercontent.com/85868026/197324326-374b5022-bb43-4473-bd4c-25d34c20621f.png)
 
 In this read, I learnt:
 - To make react components
